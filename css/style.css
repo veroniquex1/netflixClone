@@ -1,0 +1,101 @@
+*, 
+* ::before,
+* ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: black;
+    color: white;
+}
+
+/* header styling */
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgb(0,0,0,0.7)), url(https://drive.google.com/uc?id=1n8tYRAdG5PIs1jihGhlLKDmmNK4TM5Tj);
+    background-size: cover;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 180px;
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+nav button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: rgb(216, 9, 9);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.lang-btn{
+    background-color: transparent;
+    border: 1px solid white;
+    
+}
+.lang-btn img{
+    width: 10px;
+    height: 10px;
+}
+
+.main-content{
+    transform: translate(-50, -50%);
+    text-align: center;
+    margin-top: 180px;
+}
+
+.main-content h1{
+    font-size: 45px;
+    font-weight: 100px;
+    margin-bottom: 20px;
+}
+
+.main-content h3{
+    font-size: 20px;
+    font-weight: 10px;
+    margin-bottom: 15px;
+}
+
+.main-content p{
+    margin-bottom: 5px;
+}
+
+form input{
+    width: 25%;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid green ;
+    padding: 13px;
+}
+
+::placeholder{
+    color: white;
+}
+
+form button{
+    background-color: rgb(216, 9, 9);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 11px;
+
+}
+
+input[type=email]{
+    color: white;
+}
